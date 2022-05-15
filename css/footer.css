@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--alt-color);
+  height: 40px;
+}
+
+.footer-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: Fira Sans;
+}

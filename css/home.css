@@ -1,0 +1,95 @@
+.home {
+  margin: auto;
+  padding: 200px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__image {
+  width: 30%;
+  opacity: 60%;
+  margin-right: 5%;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.home__text--intro {
+  font-size: 40px;
+  font-family: Fira Sans Light;
+  color: var(--text-color);
+  font-weight: 100;
+  padding: 10px 0;
+}
+
+.home__text--name {
+  font-size: 80px;
+  font-family: Fira Sans;
+  color: var(--text-color);
+  padding: 10px 0;
+}
+
+.home__text--job {
+  font-size: 55px;
+  font-family: Fira Sans Light;
+  color: var(--text-color);
+  padding: 10px 0;
+}
+
+.home__text--span {
+  color: var(--theme-color);
+  font-family: Fira Sans;
+}
+
+.home__btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home__text-btn {
+  width: 15rem;
+  padding: 10px 0;
+  margin-top: 15px;
+  background: transparent;
+  border: 2px solid var(--secundary-color);
+  border-radius: 20px;
+}
+
+.home__text-btn--link {
+  color: var(--theme-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Fira Sans;
+  transition: 1s ease;
+}
+
+.home__text-btn--link:hover {
+  font-size: 18px;
+}
+
+.home__text-contactbtn {
+  width: 15rem;
+  padding: 10px 0;
+  margin-top: 15px;
+  background: transparent;
+  border: 2px solid var(--secundary-color);
+  border-radius: 20px;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+.home__text-contactbtn--link {
+  color: var(--theme-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Fira Sans;
+  transition: 1s ease;
+}
+
+.home__text-contactbtn--link:hover {
+  font-size: 18px;
+}

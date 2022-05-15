@@ -1,0 +1,153 @@
+.contact {
+  font-family: Fira Sans;
+  color: var(--text-color);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 38px;
+  text-decoration: underline;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__myinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  background-color: var(--primary-color);
+  width: 40%;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.contact__myinfo-title {
+  font-size: 26px;
+  text-align: start;
+  margin: 2% 0 5% 0;
+  text-align: center;
+}
+
+.contact__myinfo--text {
+  font-size: 18px;
+  text-align: justify;
+  margin: 2% 0 5% 0;
+  line-height: 1.5;
+}
+
+.material-symbols-outlined {
+  width: 24px;
+  position: relative;
+  top: 5px;
+  padding: 0 10px;
+}
+
+.contact__myinfo--info {
+  position: relative;
+  margin: 2% 0;
+}
+
+.contact__myinfo--social-title {
+  padding: 5% 0 2% 0;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.contact__myinfo--social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-logo {
+  width: 26px;
+}
+
+.social-link {
+  margin-right: 3%;
+}
+
+.contact__message--form {
+  text-align: center;
+}
+
+.contact__message {
+  margin: 5%;
+  width: 40%;
+  background-color: var(--primary-color);
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.contact__message-title {
+  font-size: 26px;
+  text-align: center;
+  margin: 2% 0 5% 0;
+}
+
+.contact__message--container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 5%;
+}
+
+.contact__message--title {
+  font-size: 20px;
+  margin: 3% 0;
+  width: 80px;
+  text-align: start;
+}
+
+.contact__message--input {
+  margin: 0 2%;
+  width: 70%;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 2%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: Fira Sans;
+}
+
+.contact__message-container--text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.contact__message--textarea {
+  margin: 4% 2%;
+  width: 70%;
+  height: 90px;
+  font-size: 16px;
+  padding: 1% 2%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: Fira Sans;
+}
+
+.contact__message--btn {
+  width: 80px;
+  height: 40px;
+  border: 2px solid var(--text-color);
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: Fira Sans;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 3%
+}
+
+.contact__message--btn:hover {
+  background-color: var(--secundary-color);
+
+}

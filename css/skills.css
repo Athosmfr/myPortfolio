@@ -1,0 +1,182 @@
+.skills__exp--title {
+  font-size: 38px;
+  font-family: Fira Sans;
+  color: var(--text-color);
+  padding: 0 7%;
+  text-decoration: underline;
+  margin: 6% 0;
+}
+
+.skills__exp-container {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+}
+
+.skills__exp-dev {
+  width: 40%;
+}
+
+.skills__exp-dev--maintitle {
+  font-size: 22px;
+  color: var(--text-color);
+  font-family: Fira Sans Light;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.skills__exp-dev--skill {
+  display: flex;
+  margin: 5% 0;
+}
+
+.skills__exp-dev--title {
+  font-size: 16px;
+  font-family: Fira Sans Light;
+  color: var(--text-color);
+  width: 50px;
+  display: block;
+}
+
+
+.skills__exp-dev--rate {
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: Fira Sans Light;
+  margin: 0 10px;
+}
+
+.skills__exp-dev--btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: fit-content;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  transition: all 3s;
+  position: relative;
+  bottom: 6px;
+}
+
+.material-symbols-outlined.arrow__btn {
+  height: 22px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 14px;
+  border: none;
+}
+
+.btn__text {
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: Fira Sans;
+  color: var(--text-color);
+  opacity: 0;
+  transition: 1s;
+  position: relative;
+  bottom: 0px;
+}
+
+.skills__exp-dev--btn:hover .btn__text {
+  opacity: 100;
+}
+
+.skills__exp-dev--bar {
+  width: 50%;
+  margin: 3px 10px;
+  height: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.skills__exp-dev--bar.hmtl-bar {
+  background: linear-gradient(90deg, var(--sub-color) 80%, var(--theme-color) 20%);
+}
+
+.skills__exp-dev--bar.css-bar {
+  background: linear-gradient(90deg, var(--sub-color) 70%, var(--theme-color) 30%);
+}
+
+.skills__exp-dev--bar.js-bar {
+  background: linear-gradient(90deg, var(--sub-color) 30%, var(--theme-color) 30%);
+}
+
+.skills__exp-dev--bar.angular-bar {
+  background: linear-gradient(90deg, var(--sub-color) 40%, var(--theme-color) 30%);
+}
+
+.skills__exp-dev--bar.python-bar {
+  background: linear-gradient(90deg, var(--sub-color) 40%, var(--theme-color) 30%);
+}
+
+.skills__exp-dev--bar.js-back-bar {
+  background: linear-gradient(90deg, var(--sub-color) 30%, var(--theme-color) 20%);
+}
+
+.skills__exp-dev--bar.sql-bar {
+  background: linear-gradient(90deg, var(--sub-color) 20%, var(--theme-color) 10%);
+}
+
+/* MODALS */
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+
+.modal {
+  background-color: var(--secundary-color);
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal-title {
+  margin: 5px 0 25px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.modal-text {
+  text-align: justify;
+  margin: 5px 0;
+  line-height: 2;
+  font-family: Fira Sans Light;
+  color: var(--text-color);
+  font-size: 18px;
+  letter-spacing: 2;
+}
+
+.modal-btn {
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: Fira Sans;
+  text-transform: uppercase;
+  background-color: var(--sub-color);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.modal-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}

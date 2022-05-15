@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #1F1D36;
+  --secundary-color: #3F3351;
+  --theme-color: #864879;
+  --sub-color: #E9A6A6;
+  --text-color: #FFFFFF;
+  --alt-color: #151515;
+}
+
+@font-face {
+  font-family: Fira Sans;
+  src: url('/fonts/Fira_Sans/FiraSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: Fira Sans Light;
+  src: url('/fonts/Fira_Sans/FiraSans-Light.ttf');
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url('/fonts/Oswald-Light.ttf');
+}
+
+@font-face {
+  font-family: Oleo Script;
+  src: url('/fonts/OleoScript-Bold.ttf');
+}
+
+
+body {
+  background: linear-gradient(#1F1D36, #3F3351)
+}
+
+
+/* ----------------------HEADER---------------------- */
+
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: var(--primary-color);
+  z-index: 1;
+  transition: 1s ease;
+}
+
+.header.nav-scrolled {
+  background-color: var(--alt-color);
+}
+
+.nav__mobilebtn {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+/* LOGO - Talvez precise criar uma ou alterar essa! */
+.nav__logo {
+  /* position: fixed;
+  left: 10%; */
+  font-size: 40px;
+  color: var(--theme-color);
+  font-family: Oleo Script;
+}
+
+.nav__menu {
+  /* position: fixed;
+  right: 10%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu--item {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.nav__menu--link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: Fira Sans;
+  transition: 1s ease;
+}
+
+.nav__menu--link:hover {
+  font-size: 24px;
+  color: var(--sub-color);
+  position: relative;
+  bottom: 3px;
+}

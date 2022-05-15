@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AthosMFR Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/viewport.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <h1 class="nav__logo">Athos.</h1>
+      <button class="nav__mobilebtn"><span class="material-symbols-outlined">
+        menu
+        </span></button>
+      <ul class="nav__menu">
+        <li class="nav__menu--item"><a class="nav__menu--link" href="#">Home</a></li>
+        <li class="nav__menu--item"><a class="nav__menu--link" href="#about">About Me</a></li>
+        <li class="nav__menu--item"><a class="nav__menu--link" href="#skills">Skills & Experience</a></li>
+        <li class="nav__menu--item"><a class="nav__menu--link" href="#projects">Projects</a></li>
+        <li class="nav__menu--item"><a class="nav__menu--link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="home" id="home">
+      <div class="home__container">
+        <h1 class="home__text--intro">Hi, my name is</h1>
+        <h1 class="home__text--name">Athos Mantovani</h1>
+        <h1 class="home__text--job">And i'm a <span class="home__text--span"></span></h1>
+        <div class="home__btns" id="about">
+          <button class="home__text-btn"><a class="home__text-btn--link" href="resume/AthosMFR Curriculo pt-en.pdf" download="AthosMFR Curriculo pt-en.pdf" type="application/pdf">Download CV</a></button>
+          <button class="home__text-contactbtn"><a class="home__text-contactbtn--link" href="#contact">Contact Me</a></button>
+        </div> 
+      </div> 
+      <img class="home__image" src="img/me.png" alt="Photo of Myself">
+    </section>
+    <section class="about">
+      <h1 class="about__title">About Me</h1>
+      <div class="about__container">
+        <div class="intro__container">
+          <h2 class="intro__text--title">Introduction</h2>
+          <p class="intro__text--name">My name is Athos Mantovani Feres Rodrigues.</p>
+          <p class="intro__text--intro">I'm new in the Programming Area, always in the pursuit of new knowledges. Have some experience in the Front-end Development area, but still reaching for improvement in Web and Apps development and looking to learn new and more languages in Back-end. </p>
+        </div>
+        <div class="about__info">
+          <span class="material-symbols-outlined">face</span><h2 class="about__info--text">Athos Mantovani Feres Rodrigues</h2>
+          <span class="material-symbols-outlined">timelapse</span><h2 class="about__info--text">23 Years Old</h2>
+          <span class="material-symbols-outlined">pin_drop</span><h2 class="about__info--text"> Curitiba-PR </h2>
+          <span class="material-symbols-outlined" id="world-icon">public</span><h2 class="about__info--text">Brazilian | Portuguese</h2>
+          <span   class="material-symbols-outlined">location_city</span><h2 class="about__info--text">Positivo University</h2>
+          <span   class="material-symbols-outlined">school</span><h2 class="about__info--text" id="skills">Software Engineer | 2020-2024</h2>
+        </div>
+      </div>
+    </section>
+    <section class="skills__exp">
+      <h1 class="skills__exp--title">Skills & Experience</h1>
+      <div class="skills__exp-container">
+        <div class="skills__exp-dev">
+          <h1 class="skills__exp-dev--maintitle">Front-end</h1>
+        <div class="skills__exp-dev--skill" id="html">
+          <h1 class="skills__exp-dev--title">HTML</h1>
+          <div class="skills__exp-dev--bar hmtl-bar"></div>
+          <h1 class="skills__exp-dev--rate">80%</h1>
+          <button class="skills__exp-dev--btn" id="open-html"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-hmtl">
+            <div class="modal">
+              <h1 class="modal-title">My HTML Experience</h1>
+              <p class="modal-text"> HTML5 & CSS3 part 1: the First Web Page (Alura) <br> HTML5 & CSS3 part 2: Positioning, Lists and Navigation (Alura) <br> HTML5 & CSS3 part 3: working with Forms and Charts (Alura) <br> HTML5 & CSS3 part 4: advancing in CSS (Alura)
+              </p>
+              <button class="modal-btn" id="close-hmtl">Close</button>
+            </div>
+          </div>
+        </div>
+        <div class="skills__exp-dev--skill" id="css">
+          <h1 class="skills__exp-dev--title">CSS</h1>
+          <div class="skills__exp-dev--bar css-bar"></div>
+          <h1 class="skills__exp-dev--rate">70%</h1>
+          <button class="skills__exp-dev--btn" id="open-css"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-css">
+            <div class="modal">
+              <h1 class="modal-title">My CSS Experience</h1>
+              <p class="modal-text"> CSS Architecture: Uncomplicating the problems (Alura) <br> Flexbox: position elements on the canvas (Alura) <br> Responsive Layouts: working with mobile layouts (Alura) <br> CSS Grid: simplifying layouts (Alura)
+              </p>
+              <button class="modal-btn" id="close-css">Close</button>
+            </div>
+          </div>
+        </div>
+        <div class="skills__exp-dev--skill" id="js">
+          <h1 class="skills__exp-dev--title">JS</h1>
+          <div class="skills__exp-dev--bar js-bar"></div>
+          <h1 class="skills__exp-dev--rate">30%</h1>
+          <button class="skills__exp-dev--btn" id="open-js"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-js">
+            <div class="modal">
+              <h1 class="modal-title">My JS Experience</h1>
+              <p class="modal-text"> JavaScript for Web: Create dynamic pages (Alura) <br> Regular Expressions: capturing texts magically (Alura) <br> JavaScript for Web: validating Forms and HTML5 (Alura) <br> JavaScript: programming in the web language (Alura)
+              </p>
+              <button class="modal-btn" id="close-js">Close</button>
+            </div>
+          </div>
+        </div>
+        <div class="skills__exp-dev--skill" id="angular">
+          <h1 class="skills__exp-dev--title" id="projects">Angular</h1>
+          <div class="skills__exp-dev--bar angular-bar"></div>
+          <h1 class="skills__exp-dev--rate">40%</h1>
+          <button class="skills__exp-dev--btn" id="open-ang"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-ang">
+            <div class="modal">
+              <h1 class="modal-title">My Angular Experience</h1>
+              <p class="modal-text"> Visual Software Development (Positivo) <br> Advanced Web Development (Positivo)
+              </p>
+              <button class="modal-btn" id="close-ang">Close</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="skills__exp-dev">
+          <h1 class="skills__exp-dev--maintitle">Back-end</h1>
+        <div class="skills__exp-dev--skill" id="python">
+          <h1 class="skills__exp-dev--title">Python</h1>
+          <div class="skills__exp-dev--bar python-bar"></div>
+          <h1 class="skills__exp-dev--rate">40%</h1>
+          <button class="skills__exp-dev--btn" id="open-py"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-py">
+            <div class="modal">
+              <h1 class="modal-title">My Python Experience</h1>
+              <p class="modal-text">  Basic to Advanced Python Programming (Udemy) </p>
+              <button class="modal-btn" id="close-py">Close</button>
+            </div>
+          </div>
+        </div>
+        <div class="skills__exp-dev--skill" id="js-back">
+          <h1 class="skills__exp-dev--title">JS</h1>
+          <div class="skills__exp-dev--bar js-back-bar"></div>
+          <h1 class="skills__exp-dev--rate">30%</h1>
+          <button class="skills__exp-dev--btn" id="open-jsback"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-jsback">
+            <div class="modal">
+              <h1 class="modal-title">My JS Experience</h1>
+              <p class="modal-text"> JavaScript: First steps with the language (Alura) <br> JavaScript: Object Orientation Programming (Alura) <br> JavaScript: Interfaces and Inheritance in Object Orientation (Alura)
+              </p>
+              <button class="modal-btn" id="close-jsback">Close</button>
+            </div>
+          </div>
+        </div>
+        <div class="skills__exp-dev--skill" id="SQL">
+          <h1 class="skills__exp-dev--title">SQL</h1>
+          <div class="skills__exp-dev--bar sql-bar"></div>
+          <h1 class="skills__exp-dev--rate">20%</h1>
+          <button class="skills__exp-dev--btn" id="open-sql"><span class="material-symbols-outlined arrow__btn"> keyboard_arrow_right</span><p class="btn__text">More</p></button>
+          <div class="modal-container" id="modal-container-sql">
+            <div class="modal">
+              <h1 class="modal-title">My SQL Experience</h1>
+              <p class="modal-text"> Database (Positivo) 
+              </p>
+              <button class="modal-btn" id="close-sql">Close</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <h1 class="proj__title">My Projects and Recent Work</h1>
+      <div class="proj__container">
+        <div class="proj__card">
+          <img class="proj__card--img" src="img/switch-landing.png" alt="switch-project">
+          <h1 class="proj__card--title">Nintendo Switch Product Landing Page</h1>
+          <div class="proj__card-btn--container">
+            <button class="proj__card-btn--git"><a class="proj__card-btn-link" href="https://github.com/Athosmfr/landingpageswitch">Github</a></button>
+            <button class="proj__card-btn--demo">Live Demo</button>
+          </div>
+        </div>
+        <div class="proj__card">
+          <img class="proj__card--img" src="img/habitable.png" alt="switch-project">
+          <h1 class="proj__card--title">Habitable Cadeiras Product Website</h1>
+          <div class="proj__card-btn--container">
+            <button class="proj__card-btn--git"><a class="proj__card-btn-link" href="https://github.com/Athosmfr/WebsiteDev1">Github</a></button>
+            <button class="proj__card-btn--demo">Live Demo</button>
+          </div>
+        </div>
+        <div class="proj__card">
+          <img class="proj__card--img" src="img/gotrip.png" alt="switch-project">
+          <h1 class="proj__card--title">Go Trip Angular Travel Page</h1>
+          <div class="proj__card-btn--container">
+            <button class="proj__card-btn--git"><a class="proj__card-btn-link" href="https://github.com/Athosmfr/goTrip">Github</a></button>
+            <button class="proj__card-btn--demo">Live Demo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="contact-title">Contact Me</h1>
+      <div class="contact-container">
+        <div class="contact__myinfo">
+          <h1 class="contact__myinfo-title">Let's get in touch!</h1>
+          <p class="contact__myinfo--text">Contact me through the information set below, also follow me on my Social Medias and check my achievements and projects i've been working on.</p>
+          <h2 class="contact__myinfo--info"><span class="material-symbols-outlined">home_pin</span>Rua Padre Antonio, 141 - Curitiba-PR</h2>
+          <h2 class="contact__myinfo--info"><span class="material-symbols-outlined">mail</span>athos.mfrodrigues@gmail.com</h2>
+          <h2 class="contact__myinfo--info"><span class="material-symbols-outlined">android_dialer</span>+55 (41) 99928-9544</h2>
+          <h1 class="contact__myinfo--social-title">Find me on my Social Medias!</h1>
+          <div class="contact__myinfo--social">
+            <a class="social-link" href="https://www.linkedin.com/in/athosmfr/"><img class="social-logo" src="img/linkedin.svg" alt="LinkedIn Logo"></a>
+            <a class="social-link" href="https://github.com/Athosmfr"><img class="social-logo" src="img/github.svg" alt="Github Logo"></a>
+            <a class="social-link" href="https://discordapp.com/users/217819710392107008/"><img class="social-logo" src="img/discord.svg" alt="Github Logo"></a>
+            <a class="social-link" href="https://www.instagram.com/athosmfrs/"><img class="social-logo" src="img/instagram.svg" alt="Github Logo"></a>
+          </div>
+        </div>
+        <div class="contact__message">
+          <h1 class="contact__message-title">Contact me!</h1>
+          <form class="contact__message--form" action="https://formsubmit.co/7df1ade50f8374e94be96d3b694115c9" method="POST">
+            <!-- Honeypot -->
+             <input type="text" name="_honey" style="display: none;">
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            
+            <div class="contact__message--container">
+              <label class="contact__message--title">Name:</label><input class="contact__message--input" name="Name" maxlength="60" type="text" placeholder="Your Name" required>
+            </div>
+            <div class="contact__message--container">
+              <label class="contact__message--title">Email:</label><input class="contact__message--input" name="Email" maxlength="50" type="email" placeholder="Your Email" required>
+            </div>
+            <div class="contact__message--container">
+              <label class="contact__message--title">Phone:</label><input class="contact__message--input" type="tel" name="Telephone" placeholder="Your Phone Number"
+              id="tel" minlength="8" maxlength="19" required>
+            </div>
+            <div class="contact__message--container">
+              <label class="contact__message--title">Message: </label><textarea class="contact__message--textarea" name="Message" id="context"></textarea>
+            </div>
+            <button class="contact__message--btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <h1 class="footer-text">Created by <font color="#864879">AthosMFR</font> | &copy; 2022 All rights reserved. </h1>
+    </div>
+  </footer>
+  <script src="js/scroll.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".home__text--span", {
+      strings: ["Developer", "Student", "Web Designer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+        loopCount: Infinity
+    })
+  </script>
+  <script src="js/modal.js"></script>
+  <script src="js/tel.js"></script>
+  <script src="js/dropdown.js"></script>
+</body>
+</html>
