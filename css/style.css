@@ -7,24 +7,24 @@
   --alt-color: #151515;
 }
 
-@font-face {
+ @font-face {
   font-family: Fira Sans;
-  src: url('/fonts/Fira_Sans/FiraSans-Medium.ttf');
+  src: url('/myPortfolio/fonts/Fira_Sans/FiraSans-Medium.ttf');
 }
 
 @font-face {
   font-family: Fira Sans Light;
-  src: url('/fonts/Fira_Sans/FiraSans-Light.ttf');
+  src: url('/myPortfolio/fonts/Fira_Sans/FiraSans-Light.ttf');
 }
 
 @font-face {
   font-family: Oswald;
-  src: url('/fonts/Oswald-Light.ttf');
+  src: url('/myPortfolio/fonts/Oswald-Light.ttf');
 }
 
 @font-face {
   font-family: Oleo Script;
-  src: url('/fonts/OleoScript-Bold.ttf');
+  src: url('/myPortfolio/fonts/OleoScript-Bold.ttf');
 }
 
 
